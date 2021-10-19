@@ -1,4 +1,11 @@
-#This Python program will check whether the Entered password and returns output that whether it was valid password or Invalid password
+'''This Python program will check whether the Entered password and returns output that whether it was valid password or Invalid password
+It will check for the below mentioned criterias:-
+    – At least 4 characters
+    – At least one numeric digit
+    – At Least one Capital Letter
+    – Must not have space or slash (/)
+    – Starting character must not be a number
+'''
 def CheckPassword(s,n):
     if n<4:
         return "Invalid Password"
